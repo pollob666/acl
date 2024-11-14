@@ -5,14 +5,14 @@ Dynamically configurable access control for Laravel applications..
 ### install
 
 ```
-composer require pollob666/acl
+composer require Pollob666/acl
 ```
 
 ### configure
 In your laravel config/app.php under providers add 
 
 ```php
-pollob666\Acl\AclServiceProvider::class
+Pollob666\Acl\AclServiceProvider::class
 ```
 ### publish
 ```
@@ -37,7 +37,7 @@ NOTE: If you see any kind of class not found type error try running `composer du
 This library comes with an artisan command `acl:resource` to automatically create all the resources (_controller@action_) available in your project under `app/Http/Controllers` directory. To activate this command you need to add these following lines to your `app/Console/Kernel.php` file. 
 ```php
 protected $commands = [
-    \pollob666\Acl\Commands\AclResource::class
+    \Pollob666\Acl\Commands\AclResource::class
 ];
 
 ```
@@ -64,8 +64,8 @@ This ACL library comes with two middleware as shown below. `AuthenticateWithAcl`
 
 In your `kernal.php` file add this lines
 ```php
-'auth.acl' => \pollob666\Acl\Middleware\AuthenticateWithAcl::class,        
-'resource.maker' => \pollob666\Acl\Middleware\ResourceMaker::class,
+'auth.acl' => \Pollob666\Acl\Middleware\AuthenticateWithAcl::class,        
+'resource.maker' => \Pollob666\Acl\Middleware\ResourceMaker::class,
 ```
 In your `route/web.php` file add this lines
 ```php
