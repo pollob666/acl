@@ -1,12 +1,12 @@
 <?php
 
-namespace pollob666\Acl\Middleware;
+namespace Pollob666\Acl\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Factory as Auth;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use pollob666\Acl\Services\PermissionCheckService;
+use Pollob666\Acl\Services\PermissionCheckService;
 use Route;
 
 class AuthenticateWithAcl {

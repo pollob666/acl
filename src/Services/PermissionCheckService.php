@@ -1,16 +1,16 @@
 <?php
 
-namespace pollob666\Acl\Services;
+namespace Pollob666\Acl\Services;
 
-use pollob666\Acl\Models\Permission;
-use pollob666\Acl\Models\UserRole;
+use Pollob666\Acl\Models\Permission;
+use Pollob666\Acl\Models\UserRole;
 use Auth;
 use Illuminate\Support\Arr;
 
 /**
  * Description of PermissionCheckService
  *
- * @author pollob666 Kumar Sarker <sk.bd2007@gmail.com>pollob666
+ * @author Pollob666 Kumar Sarker <sk.bd2007@gmail.com>Pollob666
  */
 class PermissionCheckService {
         

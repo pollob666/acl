@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: pollob666
+ * User: Pollob666
  * Date: 26/01/2020
  * Time: 1:24 PM
  */
 
-namespace pollob666\Acl\Services;
+namespace Pollob666\Acl\Services;
 
 
 class AnnotationService

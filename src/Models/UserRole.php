@@ -1,6 +1,6 @@
 <?php
 
-namespace pollob666\Acl\Models;
+namespace Pollob666\Acl\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use DB;
@@ -39,7 +39,7 @@ class UserRole extends Model {
     }
     
     public function role(){
-        return $this->hasOne('pollob666\Acl\Models\Role','role_id', 'role_id');
+        return $this->hasOne('Pollob666\Acl\Models\Role','role_id', 'role_id');
     }
     
 }

@@ -1,13 +1,13 @@
 <?php
 
-namespace pollob666\Acl\Http;
+namespace Pollob666\Acl\Http;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use pollob666\Acl\Models\Resource;
-use pollob666\Acl\Models\Role;
-use pollob666\Acl\Models\Permission;
-use pollob666\Acl\Services\RoleService;
+use Pollob666\Acl\Models\Resource;
+use Pollob666\Acl\Models\Role;
+use Pollob666\Acl\Models\Permission;
+use Pollob666\Acl\Services\RoleService;
 
 class RoleController extends Controller {
 

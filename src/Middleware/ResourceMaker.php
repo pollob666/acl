@@ -1,12 +1,12 @@
 <?php
 
-namespace pollob666\Acl\Middleware;
+namespace Pollob666\Acl\Middleware;
 
 use Closure;
 use Illuminate\Database\QueryException;
 use Illuminate\Routing\Route;
-use pollob666\Acl\Models\Resource;
-use pollob666\Acl\Models\Permission;
+use Pollob666\Acl\Models\Resource;
+use Pollob666\Acl\Models\Permission;
 
 class ResourceMaker {
 

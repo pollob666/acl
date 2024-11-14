@@ -1,10 +1,10 @@
 <?php
-namespace pollob666\Acl;
+namespace Pollob666\Acl;
 
 trait ViewCompiler {
 
     /**
-     * @author pollob666
+     * @author Pollob666
      * Check parser nullable string
      */
     private static function _nullsafeParser($str, $pre = '') {
