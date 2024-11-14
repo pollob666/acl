@@ -1,5 +1,5 @@
 {
-    "name": "Pollob666/Acl",
+    "name": "pollob666/acl",
     "description": "Dynamically configurable access control management for laravel applications",
     "keywords": ["laravel", "acl", "dynamic role and permission"],
     "type": "library",
