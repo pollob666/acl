@@ -20,7 +20,7 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "Pollob666\\Acl\\": "src/"
+            "pollob666\\Acl\\": "src/"
         }
     }
 }
