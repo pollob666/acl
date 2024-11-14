@@ -1,11 +1,11 @@
 <?php
 
-namespace Pollob666\Acl\Http;
+namespace pollob666\Acl\Http;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Pollob666\Acl\Services\ResourceService;
-use Pollob666\Acl\Models\Resource;
+use pollob666\Acl\Services\ResourceService;
+use pollob666\Acl\Models\Resource;
 use Illuminate\Support\Facades\Route;
 
 class ResourceController extends Controller {

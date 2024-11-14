@@ -1,13 +1,13 @@
 <?php
-namespace Pollob666\Acl\Services;
+namespace pollob666\Acl\Services;
 
-use Pollob666\Acl\Models\Role;
-use Pollob666\Acl\Models\Permission;
+use pollob666\Acl\Models\Role;
+use pollob666\Acl\Models\Permission;
 use Validator;
 /**
  * Description of RoleService
  *
- * @author Pollob666
+ * @author pollob666
  */
 class RoleService {
     /**

@@ -1,5 +1,5 @@
 <?php
-namespace Pollob666\Acl;
+namespace pollob666\Acl;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;

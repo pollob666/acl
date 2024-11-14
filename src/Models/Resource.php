@@ -1,6 +1,6 @@
 <?php
 
-namespace Pollob666\Acl\Models;
+namespace pollob666\Acl\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -27,6 +27,6 @@ class Resource extends Model {
     protected $fillable = ['resource_id','name','controller','action'];
     
     public function permissoin(){
-        return $this->hasMany('Pollob666\Acl\Models\Permission', 'resource_id', 'resource_id');
+        return $this->hasMany('pollob666\Acl\Models\Permission', 'resource_id', 'resource_id');
     }
 }

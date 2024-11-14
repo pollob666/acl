@@ -6,15 +6,15 @@
  * and open the template in the editor.
  */
 
-namespace Pollob666\Acl\Services;
+namespace pollob666\Acl\Services;
 
-use Pollob666\Acl\Models\Resource;
+use pollob666\Acl\Models\Resource;
 use Validator;
 
 /**
  * Description of ResourceService
  *
- * @author Pollob666 Kumar Sarker <sk.bd2007@gmail.com>Pollob666
+ * @author pollob666 Kumar Sarker <sk.bd2007@gmail.com>pollob666
  */
 class ResourceService {
     /**

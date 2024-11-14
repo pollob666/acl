@@ -1,6 +1,6 @@
 <?php
 
-namespace Pollob666\Acl\Models;
+namespace pollob666\Acl\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
