@@ -27,6 +27,6 @@ class Resource extends Model {
     protected $fillable = ['resource_id','name','controller','action'];
     
     public function permissoin(){
-        return $this->hasMany('Uzzal\Acl\Models\Permission', 'resource_id', 'resource_id');
+        return $this->hasMany('Pollob666\Acl\Models\Permission', 'resource_id', 'resource_id');
     }
 }

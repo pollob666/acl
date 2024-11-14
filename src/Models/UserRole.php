@@ -39,7 +39,7 @@ class UserRole extends Model {
     }
     
     public function role(){
-        return $this->hasOne('Uzzal\Acl\Models\Role','role_id', 'role_id');
+        return $this->hasOne('Pollob666\Acl\Models\Role','role_id', 'role_id');
     }
     
 }
